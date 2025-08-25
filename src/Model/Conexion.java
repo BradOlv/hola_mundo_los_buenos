@@ -8,8 +8,8 @@ public class Conexion {
 
     private Connection conexion;
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/DBconexionGuitarras?useSSL=false";
-    private static final String user = "admin";
-    private static final String password = "kinal123";
+    private static final String user = "root";
+    private static final String password = "admin";
     private static final String driver = "com.mysql.jdbc.Driver";
 
     public Conexion() {
